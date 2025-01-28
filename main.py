@@ -20,7 +20,7 @@ bricks = Bricks()
 scoreboard = Scoreboard(lives=1)
 
 
-pause = False
+# pause = False Work in Progress
 game_on = True
 
 screen.listen()
