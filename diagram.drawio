@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
+  <diagram name="Page-1" id="_jvSGepyRN6gxL9JDNCj">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-1" value="breakout game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-2" value="Ball logic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-3" value="Paddle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-4" value="Game board" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-5" value="Scoreboard" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-2" target="AeV71xVnFusXwNeM9uCJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="130" as="sourcePoint" />
+            <mxPoint x="200" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-3" target="AeV71xVnFusXwNeM9uCJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="170" as="sourcePoint" />
+            <mxPoint x="360" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-4" target="AeV71xVnFusXwNeM9uCJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-5" target="AeV71xVnFusXwNeM9uCJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="110" as="sourcePoint" />
+            <mxPoint x="600" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-17" target="AeV71xVnFusXwNeM9uCJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-17" value="&lt;b&gt;Ball requirements:&lt;/b&gt;&lt;div&gt;1. Move diagnoly&lt;/div&gt;&lt;div&gt;2. Bounce depending on position of the paddle&lt;/div&gt;&lt;div&gt;3. Bounce off of blocks&lt;/div&gt;&lt;div&gt;4. End the game if hits the ground&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="150" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-18" target="AeV71xVnFusXwNeM9uCJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-18" value="&lt;b&gt;Padle requirements:&lt;/b&gt;&lt;div&gt;1. Needs to be able to move on key commands (preferably even on mouse commands)&lt;/div&gt;&lt;div&gt;2. Needs to stop and the borders of the game&lt;/div&gt;&lt;div&gt;3. Needs to be positioned at the bottom, with space for the ball to fall to end the game&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="150" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-20" value="&lt;b&gt;Game board:&lt;/b&gt;&lt;div&gt;1. Needs to have borders around the dimensions of the game.&lt;/div&gt;&lt;div&gt;2. These borders need to act as bounce points.&lt;/div&gt;&lt;div&gt;3. The bottom needs to be hollow so that the ball falls through to end the game.&lt;/div&gt;&lt;div&gt;4. The board needs to fill with breakables once the game starts&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="374" y="270" width="146" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-23" value="Breakables" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=2.2737367544323206e-13;" vertex="1" parent="1">
+          <mxGeometry x="510" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-23" target="AeV71xVnFusXwNeM9uCJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="170" as="sourcePoint" />
+            <mxPoint x="540" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.586;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-20" target="AeV71xVnFusXwNeM9uCJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AeV71xVnFusXwNeM9uCJ-29" target="AeV71xVnFusXwNeM9uCJ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-29" value="&lt;b&gt;Breakable Blocks:&lt;/b&gt;&lt;div&gt;1. Needs to dissapear when comes into contact with the paddle&lt;/div&gt;&lt;div&gt;2. The ball needs to bounce off of them&lt;/div&gt;&lt;div&gt;3. Needs to populate the near top of the board with space for the ball to bounce off the ceiling.&amp;nbsp;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AeV71xVnFusXwNeM9uCJ-31" value="&lt;b&gt;Scoreboard:&lt;/b&gt;&lt;div&gt;1. Needs to update when a block is destroyed&lt;/div&gt;&lt;div&gt;2. Be positioned in a spot that is not intrusive for the game, most likely above the bordewrs of the board.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="140" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
