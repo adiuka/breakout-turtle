@@ -8,5 +8,6 @@ The next steps for improvement are:
 2. Create a UI, that allows you to pause and start the game
 3. Create a different bounce off of specific blocks
 4. Create more variation of bounce angles
+5. Integrate mouse movement
 
 Otherwise enjoy!
