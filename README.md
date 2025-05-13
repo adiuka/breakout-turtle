@@ -11,3 +11,5 @@ The next steps for improvement are:
 5. Integrate mouse movement
 
 Otherwise enjoy!
+
+![hippo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjJvZXZydm90eXI3N2puNHJhNDVkdWZ1Zzk3NjNqcXc4ZnpzY2g3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iuBAn0WD2hIpwyAFba/giphy.gif)
